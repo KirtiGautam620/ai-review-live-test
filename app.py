@@ -3,7 +3,7 @@ def divide(a, b):
     return a / b
 
 def find_max(numbers):
-    max_num = -10**8
+    max_num = float('-inf')
 
     for num in numbers:
         if num > max_num:
