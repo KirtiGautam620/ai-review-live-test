@@ -1,5 +1,3 @@
 def divide(a, b):
-    if b==0: raise ZeroDivisionError()
+    if b==0: raise "zero division error"
     return a / b
-
-api="api_test_key_37dfkjads"
