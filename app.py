@@ -3,10 +3,10 @@ def divide(a, b):
     return a / b
 
 def find_max(numbers):
-    if len(numbers)==0:return
+    if len(numbers)==0:return None
     max_num = numbers[0]
-    for num in range(1,len(numbers)):
-        if numbers[num] > max_num:
-            max_num = numbers[num]
+    for i in range(1,len(numbers)):
+        if numbers[i] > max_num:
+            max_num = numbers[i]
 
     return max_num
