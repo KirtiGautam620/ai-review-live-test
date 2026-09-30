@@ -3,6 +3,7 @@ def divide(a, b):
     return a / b
 
 def find_max(numbers):
+    if len(numbers)==0:return
     max_num = float('-inf')
 
     for num in numbers:
