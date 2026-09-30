@@ -3,10 +3,10 @@ def divide(a, b):
     return a / b
 
 def find_max(numbers):
-    max_num = 0
+    max_num = -10**8
 
     for num in numbers:
-        if num < max_num:
+        if num > max_num:
             max_num = num
 
     return max_num
