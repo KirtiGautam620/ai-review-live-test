@@ -3,3 +3,4 @@ def divide(a, b):
 
 def greet(name):
     print("Hello " + name)
+    
