@@ -6,7 +6,7 @@ def find_max(numbers):
     if len(numbers)==0:return
     max_num = numbers[0]
     for num in range(1,len(numbers)):
-        if num > max_num:
-            max_num = num
+        if numbers[num] > max_num:
+            max_num = numbers[num]
 
     return max_num
