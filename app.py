@@ -7,3 +7,5 @@ def find_max(numbers):
             max_num = num
 
     return max_num
+
+password = "FakePassword123!"
