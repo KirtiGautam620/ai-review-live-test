@@ -1,4 +1,5 @@
 def find_max(numbers):
+    if not numbers:return None
     max_num = float('-inf')
 
     for num in numbers:
